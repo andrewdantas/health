@@ -1,0 +1,55 @@
+HealthCalc
+
+- APP "Aplictivo para quem deseja acompanhar de fora simples e direta diversas métricasde saúde".
+
+- IMC (Índice de massa corporal)
+- FCM (Frequência cardiaca máxima)
+- GET (Gasto Ernegético Caalórico)
+- TMB (Taxa Matabólica basal)
+- Água (Litros por dia) tmb - taxa matábolica basal
+
+imc = peso / (altura * altura)
+fmc = 208 - (0.7 * idade)
+agua = (peso * 35) / 1000
+
+get = tmb * valor
+
+Valores:
+Sedentário: 1.2
+Exercício Leve (1-2 dias/semana): 1.375
+Exercício Moderado (3-5 dias/semana): 1.55
+Exercício Pesado (6-7 dias/semana): 1.725
+Atletla (1-2 treinos/dias): 1.9
+
+tmb:
+Homens: get = 66 + (13.7 x peso em quilogramas) + (5 x altura em centímetros) – (6.8 x idade em anos)
+
+Mulheres: get = 655 + (9.6 X peso em quilogramas) + (1.8 X altura em centímetros) – (4.7 x idade em anos)
+
+Homens:
+get = (66 + (13.7 x peso) + (5 x altura * 100) – (6.8 * idade)) * valor
+
+Mulheres:
+get = (655 + (9.6 x peso) + (1.8 x altura * 100) – (4.7 * idade)) * valor
+
+// Variáveis
+peso, altura, imc, idade, fcm, litros, get
+
+// Entrada
+peso, altura, idade
+() Homem    () Mulher
+Tabela de Valores - linhas 23/35
+
+// Processamentos
+Fórmulas (linha 10 / 12)
+
+// Saída
+imc junto com o Mostrado (indicativo do status do peso)
+
+
+fcm, get, litros
+Mostrador (indicativo do Status do peso)
+Coração pulsando (fcm)
+
+
+
