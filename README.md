@@ -1,2 +1,2 @@
 # health
-Aplictivo para quem deseja acompanhar de fora simples e direta diversas métricasde saúde.
+Aplicativo para quem deseja acompanhar de forma simples e direta diversas métricas de saúde.
